@@ -11309,7 +11309,7 @@ html {
   min-height: 15rem;
 }
 
-/* sign-in scc */
+/* sign-in, sign-up scc */
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -11387,4 +11387,12 @@ html {
   margin-bottom: 20px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.form-signup {
+  padding: 15px;
+}
+
+.form-signin .have-account {
+  margin-top: 10px;
 }
