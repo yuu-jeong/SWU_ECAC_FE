@@ -44,7 +44,7 @@
                         <div class="col-lg-8 col-xl-6">
                             <div class="form-signin">
                             <form>
-                                <h1 class="h2 mb-3 fw-bold text-center sign-in-text">활동 등록</h1>
+                                <h1 class="h2 mb-3 fw-bold text-center sign-in-text">추가 활동 등록</h1>
                                 <div class="form-floating">
                                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                                     <label for="floatingInput">이름</label>
@@ -53,20 +53,19 @@
                                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                                     <label for="floatingInput">전화번호</label>
                                 </div>
-                                <div class="form-floating align-middle">
-                                    <select class="form-select align-middle" aria-label=".form-select-lg example">
-                                        <option selected>활동명</option>
-                                        <option value="1">Best of the Best</option>
-                                        <option value="2">K-Shield Jr</option>
-                                        <option value="3">SSAFY</option>
-                                      </select>
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput">활동명</label>
                                 </div>
                                 <div class="form-floating">
                                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                                     <label for="floatingPassword">주최 기관</label>
                                 </div>
-                                    <button class="w-100 btn btn btn-primary" type="button" onclick="location.href='activity-add-end.html';">등록하기</button>
-                                    <p class="text-center have-account">등록하고자 하는 활동이 없나요? <a href="/additional-activity-add.html">추가 활동 등록</a> </p>                     
+                                <div class="custom-file pb-3">
+                                    <h5 class="fw-bold text-center py-2 " for="customFile">부가 자료 첨부</h5>
+                                    <input type="file" class="custom-file-input form-control" id="customFile">
+                                </div>
+                                    <button class="w-100 btn btn btn-primary" type="button" onclick="location.href='activity-add-end.html';">등록하기</button>                    
                             </form>
                             </div>
                         </div>
