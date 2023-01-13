@@ -32,7 +32,7 @@
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #fff; 
 }
 
 .tab:after {
