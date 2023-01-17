@@ -71,6 +71,10 @@
     transition: color .4s ease-out,font-size .2s ease-out;
 }
 
+.tab a:hover, .tab button:hover {
+    color: #232324;
+}
+
 a {
     color: inherit;
     text-decoration: inherit;

@@ -58,7 +58,9 @@
                             <div class="tab-inner">
                                 <div class="tab">
                                     <div class="tab-scroll">
-                                        <a href="" class="router-link-exact-active active" aria-current="page"> 기획/광고/마케팅 </a>
+                                        <a href="" class="active" aria-current="page"> 
+                                            기획/광고/마케팅 
+                                        </a>
                                         <a href="" class>  
                                            영상/사진
                                         </a>
@@ -134,5 +136,16 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+        <script>  
+            $(document).ready(function() {
+            $(".tab-scroll > a").click(function() {
+            var idx = $(this).index();
+            $(".tab-scroll > a").removeClass("active");
+            $(".tab-scroll > a").eq(idx).addClass("active");
+            })
+        }); 
+        </script>
+
     </body>
 </html>
