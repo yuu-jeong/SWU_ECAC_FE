@@ -178,10 +178,13 @@ address {
   line-height: inherit;
 }
 
-ol,
-ul {
+/* ol,ul {
+  padding-left: 2rem;
+} */
+ol {
   padding-left: 2rem;
 }
+
 
 ol,
 ul,
