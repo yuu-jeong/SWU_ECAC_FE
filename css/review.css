@@ -92,3 +92,9 @@ a {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+/* 리뷰 카테고리 */
+.review-category{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+}

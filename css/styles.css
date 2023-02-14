@@ -119,6 +119,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+  font-family: 'Noto Sans KR', sans-serif;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -144,12 +145,17 @@ h4, .h4 {
   }
 }
 
+/* ECAC가 하는 일 카테고리 */
 h5, .h5 {
   font-size: 1.25rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 600;
 }
 
+/* 마이페이지 회원정보 */
 h6, .h6 {
   font-size: 1rem;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 p {
@@ -2185,6 +2191,7 @@ progress {
   color: #6c757d;
 }
 
+/* 리뷰 검색바 내부 글씨  */
 .form-control {
   display: block;
   width: 100%;
@@ -2201,6 +2208,8 @@ progress {
           appearance: none;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: 'Noto Sans KR', sans-serif;
+
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
@@ -3028,10 +3037,12 @@ textarea.form-control-lg {
   opacity: 0.65;
 }
 
+/* 리뷰 작성하러 가기 버튼 */
 .btn-primary {
   color: #fff;
   background-color: #0d6efd;
   border-color: #0d6efd;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4719,8 +4730,10 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 
+/* FAQ 질문 */
 .accordion-header {
   margin-bottom: 0;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .accordion-item {
@@ -6621,6 +6634,10 @@ textarea.form-control-lg {
   content: "";
 }
 
+.mypage-go{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 .text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -7355,16 +7372,20 @@ textarea.form-control-lg {
   margin-right: auto !important;
 }
 
+/* ECAC가 하는 일 상세설명 */
 .mb-0 {
   margin-bottom: 0 !important;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .mb-1 {
   margin-bottom: 0.25rem !important;
 }
 
+/* 멤버십 상세설명 */
 .mb-2 {
   margin-bottom: 0.5rem !important;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .mb-3 {
@@ -7635,16 +7656,20 @@ textarea.form-control-lg {
   font-weight: lighter !important;
 }
 
+/* 메인배너, 이달의 리뷰, FAQ 상세설명 */
 .fw-normal {
   font-weight: 400 !important;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .fw-bold {
   font-weight: 700 !important;
 }
 
+/* 메인배너 문구, ECA가 하는 일, 이달의 리뷰 */
 .fw-bolder {
   font-weight: bolder !important;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .lh-1 {
