@@ -2674,7 +2674,9 @@ textarea.form-control-lg {
 .form-floating > .form-select {
   height: calc(3.5rem + 2px);
   line-height: 1.25;
+  font-family: 'Noto Sans KR', sans-serif;
 }
+/* 로그인 박스 내부 글씨 */
 .form-floating > label {
   position: absolute;
   top: 0;
@@ -2685,6 +2687,7 @@ textarea.form-control-lg {
   border: 1px solid transparent;
   transform-origin: 0 0;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-floating > label {
@@ -6970,8 +6973,10 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
+/* 로그인 페이지 내 로그인, 회원가입 버튼 */
 .w-100 {
   width: 100% !important;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .w-auto {
@@ -7390,6 +7395,7 @@ textarea.form-control-lg {
 
 .mb-3 {
   margin-bottom: 1rem !important;
+  font-family: 'Noto Sans KR', sans-serif; 
 }
 
 .mb-4 {
